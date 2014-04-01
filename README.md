@@ -1,7 +1,10 @@
 SpreeRussian
 ============
 
-Introduction goes here.
+Пока:
+Русские названия стран и их нормальная сортировка.
+
+Работает с 2-1-stable
 
 Installation
 ------------
@@ -37,4 +40,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_russian/factories'
 ```
 
-Copyright (c) 2014 [name of extension creator], released under the New BSD License
+Copyright (c) 2014 Aleksander Aleksandrov, released under the New BSD License

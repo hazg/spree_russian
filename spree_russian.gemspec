@@ -3,22 +3,23 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_russian'
   s.version     = '2.2.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Spree Commerce russian adaptation'
+  s.description = 'Spree Commerce russian adaptation'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Aleksander Aleksandrov'
+  s.email     = 'ya@hazg.net'
+  s.homepage  = 'http://hazg.net'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.2.0'
+  s.add_dependency 'spree_core', '~> 2.1'
 
   s.add_development_dependency 'capybara', '~> 2.1'
+  s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_girl', '~> 4.2'
